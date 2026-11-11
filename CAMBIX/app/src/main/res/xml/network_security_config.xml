@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cleartext is allowed at the OS level only so a user can point an AI provider at a server on their own
+     network. The app itself refuses http:// unless that provider has "izinkan HTTP" switched on. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
